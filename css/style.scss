@@ -3,6 +3,8 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+$cloro: rgb(117, 210, 247), rgb(18, 87, 114), rgb(7, 175, 241),
+	rgb(113, 170, 192);
 body,
 html {
 	height: 100%;
@@ -20,6 +22,26 @@ main {
 	gap: 5px;
 }
 
-img {
-	width: 100%;
+.card {
+	transition: transform 1s;
+	@for $i from 1 through 4 {
+		&:nth-of-type(#{$i}) {
+			background: nth($cloro, $i);
+		}
+	}
+	&:hover {
+		transform: translateY(10px);
+	}
+	img {
+		width: 100%;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+	}
+	.card-info {
+		padding: 1rem;
+	}
+	.title {
+		text-align: center;
+		padding: 1rem;
+	}
 }
