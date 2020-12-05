@@ -11,11 +11,13 @@ html {
 
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  background: #192429;
 }
 
 h2 {
   margin: 5rem;
   text-align: center;
+  color: #fff;
 }
 
 main {
