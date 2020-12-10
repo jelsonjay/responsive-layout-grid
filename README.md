@@ -1,5 +1,5 @@
 # responsive-layout-grid 
- Simple responsive layout with CSS Grid & Sass
+ simple responsive layout without media query, only CSS Grid & Sass
  
  [Access the Project](https://jelsonjay.github.io/responsive-layout-grid/)
  
