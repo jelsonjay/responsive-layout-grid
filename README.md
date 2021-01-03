@@ -1,5 +1,5 @@
 # responsive-layout-grid using css & sass
- simple responsive layout card made without using media query, only html, CSS Grid, & Sass
+ simple responsive layout card made without using media query, only html5, CSS3 Grid, & Sass
  
  [Access the Project](https://jelsonjay.github.io/responsive-layout-grid/)
  
